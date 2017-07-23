@@ -1,0 +1,504 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<html>
+<head>
+<title>International Student Welcome: Contact Us</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="keywords" content="International Student Welcome, international student welcome, international, student, home, homepage, christian graduate society, christian, graduate, cambridge university, cambridge, contact">
+</head>
+<a name="top">
+<body BGCOLOR="#FFFFFF" text="#000000" link="#000099" alink="#cc0000"
+vlink="#cc3
+333">
+<table width = "100%" cellspacing="0" cellpadding="0" border="0">
+   <tr>
+      <td height="2" bgcolor="#FFFFFF"></td>
+   </tr>
+   <tr>
+      <td bgcolor="#000000" valign="center" align="left" width=303>
+         <font color="#ffffff"><img src="logo.gif" width=303 height=110
+alt="International Student Welcome"></font>
+      </td>
+      <td align="center" valign="middle" bgcolor="#000000">&nbsp; 
+     </td>
+      <td valign="bottom" align="right" bgcolor="#000000" width=303
+height=110>
+         <font color="#ff5555" link="#ff5555" size="3"><b><i>Organised by the Christian Graduate Society</i></b></font>
+      </td>
+   </tr>
+</table>
+<table width = "100%" cellspacing="0" cellpadding="0" border="0">
+   <tr>
+      <td bgcolor="#0099cc" align="center" valign="middle">
+         <table width = "100%" cellspacing="2" cellpadding="2" border="2">
+	 <tr>
+	    <td width="11%" height="40" valign="middle" align="center">
+	      <a href="index.html">Home</a>
+	    </td>
+	    <td width="11%" height="40" valign="middle" align="center">
+	      <a href="events.html">Events</a>
+	    </td>
+	    <td width="11%" height="40" valign="middle" align="center">
+	      <a href="life.html">Life in Cambridge</a>
+	    </td>
+	    <td width="12%" height="40" valign="middle" align="center">
+	      <a href="faqs.html">Questions?</a>
+	    </td>
+	    <td width="11%" height="40" valign="middle" align="center">
+	      <a href="links.html">Links</a>
+	    </td>
+	    <td width="11%" height="40" valign="middle" align="center">
+	      <a href="applying.html">Applying</a>
+	    </td>
+	    <td width="11%" height="40" valign="middle" align="center">
+	     <a href="contact.html">Contact Us</a>
+	    </td>
+	    <td width="11%" height="40" valign="middle" align="center">
+	     <a href="pictures.html">Pictures</a>
+	    </td>
+	    <td width="11%" height="40" valign="middle" align="center">
+	     <a href="map.html">Map</a>
+	    </td>
+	 </tr>
+	 </table>
+      </td>   
+  </tr>
+   <tr>
+      <td height="4" bgcolor="#FFFFFF"></td>
+   </tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="10" border="0">
+  <tr>
+     <td bgcolor="#0099cc" height="45">
+      <b><u>Contact Us</u></b>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <font face="arial, sans-serif, helvetica" size="3">
+        <p>If you are keen to get in touch with us before you arrive so that we know when you are coming, or if you would like to ask us some questions about Cambridge, we would be delighted to hear from you.  Fill in the following form and one of us will get back to you as soon as we can.</p>
+	<p>Please <font color="#FF0000"><b>note</b></font> that while we want to give you as much assistance as possible, there are unfortunately some things which we are unable to help you with.  Check the <a href="areas.html">areas</a> where we can help before sending us more general questions. 
+	<p>For general enquiries about studying in Cambridge University, contact <a
+href="mailto:admissions@cam.ac.uk">admissions@cam.ac.uk</a>
+(for prospective undergraduates) or <a href="mailto:admissions@gradstudies.cam.ac.uk">admissions@gradstudies.cam.ac.uk</a>
+(for prospective postgraduates).
+<p>
+ The ISW Team. 
+      </p>
+      </font>
+      <form name="EmailForm" method="post" action="http://www.srcf.ucam.org/cucgs/isw/mailtool/mailtool.php">
+      <input type="hidden" name="toText" value="mhso2@cam.ac.uk">
+      <input type="hidden" name="subjectText" value="[Posted from ISW Website]">
+      <table width="400" border="0" cellspacing="10" cellpadding="0">
+        <tr>
+	   <td width="40%" align="left" valign="center"><p><b><font face="arial, sans-serif, helvetica" size="3">Your Name:</font></b><br></td>
+	   <td width="60%" align="left" valign="center"><p><input type="text" name="name" size="30"><br></td>
+	</tr>
+	<tr>
+	   <td valign="center"><p><b><font face="arial, sans-serif, helvetica" size="3">Email Address:</font></b><br></td>
+	   <td valign="center"><p><input type="text" name="fromText" size="30"><br></td>
+	</tr>
+	<tr>
+	   <td valign="center"><p><b><font face="arial, sans-serif, helvetica" size="3">College:</font></b><br></td>
+	   <td valign="center"><p><input type="text" name="college" size="30"><br></td>
+	</tr>
+	<tr>
+	   <td valign="top"><p><b><font face="arial, sans-serif, helvetica" size="3">Home Country:</font></b><br></td>
+	   <td valign="center"><font face="arial, sans-serif, helvetica" size="3"><p>
+    <SELECT NAME="home" size="3">
+        <OPTION value="af">Afghanistan</option>
+        <OPTION value="al">Albania</option>
+        <OPTION value="dz">Algeria</option>
+        <OPTION value="as">American Samoa</option>
+        <OPTION value="ad">Andorra</option>
+        <OPTION value="ao">Angola</option>
+        <OPTION value="ai">Anguilla</option>
+        <OPTION value="aq">Antarctica</option>
+        <OPTION value="ag">Antigua and Barbuda</option>
+        <OPTION value="ar">Argentina</option>
+        <OPTION value="am">Armenia</option>
+        <OPTION value="aw">Aruba</option>
+        <OPTION value="ac">Ascension Island</option>
+        <OPTION value="au">Australia</option>
+        <OPTION value="at">Austria</option>
+        <OPTION value="az">Azerbaijan</option>
+        <OPTION value="bs">Bahamas</option>
+        <OPTION value="bh">Bahrain</option>
+        <OPTION value="bd">Bangladesh</option>
+        <OPTION value="bb">Barbados</option>
+        <OPTION value="by">Belarus</option>
+        <OPTION value="be">Belgium</option>
+        <OPTION value="bz">Belize</option>
+        <OPTION value="bj">Benin</option>
+        <OPTION value="bm">Bermuda</option>
+        <OPTION value="bt">Bhutan</option>
+        <OPTION value="bo">Bolivia</option>
+        <OPTION value="ba">Bosnia and Herzegovina</option>
+        <OPTION value="bw">Botswana</option>
+        <OPTION value="bv">Bouvet Island</option>
+        <OPTION value="br">Brazil</option>
+        <OPTION value="io">British Indian Ocean Territory</option>
+        <OPTION value="bn">Brunei Darussalam</option>
+        <OPTION value="bg">Bulgaria</option>
+        <OPTION value="bf">Burkina Faso</option>
+        <OPTION value="bi">Burundi</option>
+        <OPTION value="kh">Cambodia</option>
+        <OPTION value="cm">Cameroon</option>
+	<OPTION value="ca">Canada</option>
+        <OPTION value="cv">Cap Verde</option>
+        <OPTION value="ky">Cayman Islands</option>
+        <OPTION value="cf">Central African Republic</option>
+        <OPTION value="td">Chad</option>
+        <OPTION value="cl">Chile</option>
+        <OPTION value="cn">China</option>
+        <OPTION value="cx">Christmas Island</option>
+        <OPTION value="cc">Cocos(Keeling) Islands</option>
+        <OPTION value="co">Colombia</option>
+        <OPTION value="km">Comoros</option>
+        <OPTION value="cd">Congo, Democratic Republic of the</option>
+        <OPTION value="cg">Congo, Republic of</option>
+        <OPTION value="ck">Cook Islands</option>
+        <OPTION value="cr">Costa Rica</option>
+        <OPTION value="ci">Cote d'Ivoire</option>
+        <OPTION value="hr">Croatia/Hrvatska</option>
+        <OPTION value="cu">Cuba</option>
+        <OPTION value="cy">Cyprus</option>
+        <OPTION value="cz">Czech Republic</option>
+        <OPTION value="dk">Denmark</option>
+        <OPTION value="dj">Djibouti</option>
+        <OPTION value="dm">Dominica</option>
+        <OPTION value="do">Dominican Republic</option>
+        <OPTION value="tp">East Timor</option>
+        <OPTION value="ec">Ecuador</option>
+        <OPTION value="eg">Egypt</option>
+        <OPTION value="sv">El Salvador</option>
+        <OPTION value="gq">Equatorial Guinea</option>
+        <OPTION value="er">Eritrea</option>
+        <OPTION value="ee">Estonia</option>
+	<OPTION value="et">Ethiopia</option>
+        <OPTION value="fk">Falkland Islands (Malvina)</option>
+        <OPTION value="fo">Faroe Islands</option>
+        <OPTION value="fj">Fiji</option>
+        <OPTION value="fi">Finland</option>
+        <OPTION value="fr">France</option>
+        <OPTION value="gf">French Guiana</option>
+        <OPTION value="pf">French Polynesia</option>
+        <OPTION value="tf">French Southern Territories</option>
+        <OPTION value="ga">Gabon</option>
+        <OPTION value="gm">Gambia</option>
+        <OPTION value="ge">Georgia</option>
+        <OPTION value="de">Germany</option>
+        <OPTION value="gh">Ghana</option>
+        <OPTION value="gi">Gibraltar</option>
+        <OPTION value="gr">Greece</option>
+        <OPTION value="gl">Greenland</option>
+        <OPTION value="gd">Grenada</option>
+        <OPTION value="gp">Guadeloupe</option>
+        <OPTION value="gu">Guam</option>
+        <OPTION value="gt">Guatemala</option>
+        <OPTION value="gg">Guernsey</option>
+        <OPTION value="gn">Guinea</option>
+        <OPTION value="gw">Guinea-Bissau</option>
+        <OPTION value="gy">Guyana</option>
+	<OPTION value="ht">Haiti</option>
+        <OPTION value="hm">Heard and McDonald Islands</option>
+        <OPTION value="va">Holy See (City Vatican State)</option>
+        <OPTION value="hn">Honduras</option>
+        <OPTION value="hk">Hong Kong</option>
+        <OPTION value="hu">Hungary</option>
+        <OPTION value="is">Iceland</option>
+        <OPTION value="in">India</option>
+        <OPTION value="id">Indonesia</option>
+        <OPTION value="ir">Iran (Islamic Republic of)</option>
+        <OPTION value="iq">Iraq</option>
+        <OPTION value="ie">Ireland</option>
+        <OPTION value="im">Isle of Man</option>
+        <OPTION value="il">Israel</option>
+        <OPTION value="it">Italy</option>
+        <OPTION value="jm">Jamaica</option>
+        <OPTION value="jp">Japan</option>
+        <OPTION value="je">Jersey</option>
+        <OPTION value="jo">Jordan</option>
+        <OPTION value="kz">Kazakhstan</option>
+        <OPTION value="ke">Kenya</option>
+        <OPTION value="ki">Kiribati</option>
+        <OPTION value="kp">Korea, Democratic People's Republic</option>
+        <OPTION value="kr">Korea, Republic of</option>
+        <OPTION value="kw">Kuwait</option>
+        <OPTION value="kg">Kyrgyzstan</option>
+	<OPTION value="la">Lao People's Democratic Republic</option>
+        <OPTION value="lv">Latvia</option>
+        <OPTION value="lb">Lebanon</option>
+        <OPTION value="ls">Lesotho</option>
+        <OPTION value="lr">Liberia</option>
+        <OPTION value="ly">Libyan Arab Jamahiriya</option>
+        <OPTION value="li">Liechtenstein</option>
+        <OPTION value="lt">Lithuania</option>
+        <OPTION value="lu">Luxembourg</option>
+        <OPTION value="mo">Macau</option>
+        <OPTION value="mk">Macedonia, Former Yugoslav Republic</option>
+        <OPTION value="mg">Madagascar</option>
+        <OPTION value="mw">Malawi</option>
+        <OPTION value="my">Malaysia</option>
+        <OPTION value="mv">Maldives</option>
+        <OPTION value="ml">Mali</option>
+        <OPTION value="mt">Malta</option>
+        <OPTION value="mh">Marshall Islands</option>
+        <OPTION value="mq">Martinique</option>
+        <OPTION value="mr">Mauritania</option>
+        <OPTION value="mu">Mauritius</option>
+        <OPTION value="yt">Mayotte</option>
+        <OPTION value="mx">Mexico</option>
+        <OPTION value="fm">Micronesia, Federal State of</option>
+        <OPTION value="md">Moldova, Republic of</option>
+        <OPTION value="mc">Monaco</option>
+        <OPTION value="mn">Mongolia</option>
+        <OPTION value="ms">Montserrat</option>
+        <OPTION value="ma">Morocco</option>
+        <OPTION value="mz">Mozambique</option>
+        <OPTION value="mm">Myanmar</option>
+        <OPTION value="na">Namibia</option>
+        <OPTION value="nr">Nauru</option>
+        <OPTION value="np">Nepal</option>
+        <OPTION value="nl">Netherlands</option>
+        <OPTION value="an">Netherlands Antilles</option>
+        <OPTION value="nc">New Caledonia</option>
+        <OPTION value="nz">New Zealand</option>
+        <OPTION value="ni">Nicaragua</option>
+        <OPTION value="ne">Niger</option>
+        <OPTION value="ng">Nigeria</option>
+        <OPTION value="nu">Niue</option>
+        <OPTION value="nf">Norfolk Island</option>
+        <OPTION value="mp">Northern Mariana Islands</option>
+        <OPTION value="no">Norway</option>
+        <OPTION value="om">Oman</option>
+        <OPTION value="pk">Pakistan</option>
+        <OPTION value="pw">Palau</option>
+        <OPTION value="ps">Palestinian Territories</option>
+        <OPTION value="pa">Panama</option>
+        <OPTION value="pg">Papua New Guinea</option>
+        <OPTION value="py">Paraguay</option>
+        <OPTION value="pe">Peru</option>
+        <OPTION value="ph">Philippines</option>
+        <OPTION value="pn">Pitcairn Island</option>
+        <OPTION value="pl">Poland</option>
+        <OPTION value="pt">Portugal</option>
+        <OPTION value="pr">Puerto Rico</option>
+        <OPTION value="qa">Qatar</option>
+        <OPTION value="re">Reunion Island</option>
+        <OPTION value="ro">Romania</option>
+        <OPTION value="ru">Russian Federation</option>
+        <OPTION value="rw">Rwanda</option>
+        <OPTION value="kn">Saint Kitts and Nevis</option>
+        <OPTION value="lc">Saint Lucia</option>
+        <OPTION value="vc">Saint Vincent and the Grenadines</option>
+        <OPTION value="sm">San Marino</option>
+        <OPTION value="st">Sao Tome and Principe</option>
+        <OPTION value="sa">Saudi Arabia</option>
+        <OPTION value="sn">Senegal</option>
+        <OPTION value="sc">Seychelles</option>
+        <OPTION value="sl">Sierra Leone</option>
+        <OPTION value="sg">Singapore</option>
+        <OPTION value="sk">Slovak Republic</option>
+        <OPTION value="si">Slovenia</option>
+        <OPTION value="sb">Solomon Islands</option>
+        <OPTION value="so">Somalia</option>
+        <OPTION value="za">South Africa</option>
+        <OPTION value="gs">South Georgia and the South Sandwich Islands</option>
+	<OPTION value="es">Spain</option>
+        <OPTION value="lk">Sri Lanka</option>
+        <OPTION value="sh">St. Helena</option>
+        <OPTION value="pm">St. Pierre and Miquelon</option>
+        <OPTION value="sd">Sudan</option>
+        <OPTION value="sr">Suriname</option>
+        <OPTION value="sj">Svalbard and Jan Mayen Islands</option>
+        <OPTION value="sz">Swaziland</option>
+        <OPTION value="se">Sweden</option>
+        <OPTION value="ch">Switzerland</option>
+        <OPTION value="sy">Syrian Arab Republic</option>
+        <OPTION value="tw">Taiwan</option>
+        <OPTION value="tj">Tajikistan</option>
+        <OPTION value="tz">Tanzania</option>
+        <OPTION value="th">Thailand</option>
+        <OPTION value="tg">Togo</option>
+        <OPTION value="tk">Tokelau</option>
+        <OPTION value="to">Tonga</option>
+        <OPTION value="tt">Trinidad and Tobago</option>
+        <OPTION value="tn">Tunisia</option>
+        <OPTION value="tr">Turkey</option>
+        <OPTION value="tm">Turkmenistan</option>
+        <OPTION value="tc">Turks and Caicos Islands</option>
+        <OPTION value="tv">Tuvalu</option>
+        <OPTION value="um">US Minor Outlying Islands</option>
+        <OPTION value="ug">Uganda</option>
+        <OPTION value="ua">Ukraine</option>
+        <OPTION value="ae">United Arab Emirates</option>
+        <OPTION value="uk">United Kingdom</option>
+        <OPTION value="us">United States</option>
+        <OPTION value="uy">Uruguay</option>
+        <OPTION value="uz">Uzbekistan</option>
+        <OPTION value="vu">Vanuatu</option>
+        <OPTION value="ve">Venezuela</option>
+        <OPTION value="vn">Vietnam</option>
+        <OPTION value="vg">Virgin Islands (British)</option>
+        <OPTION value="vi">Virgin Islands (USA)</option>
+        <OPTION value="wf">Wallis and Futuna Islands</option>
+        <OPTION value="eh">Western Sahara</option>
+        <OPTION value="ws">Western Samoa</option>
+        <OPTION value="ye">Yemen</option>
+        <OPTION value="yu">Yugoslavia</option>
+        <OPTION value="zm">Zambia</option>
+        <OPTION value="zw">Zimbabwe</option>
+    </SELECT>
+    <br>
+              </td>
+	</tr>
+     </table>
+     <table width="400" border="0" cellspacing="10" cellpadding="0">
+	<tr>
+	   <td width="66%" valign="center"><p><b><font face="arial, sans-serif, helvetica" size="3">Do you know when you will be arriving in Cambridge?</font></b><br></td>
+	   <td width="33%" valign="center"><font face="arial, sans-serif, helvetica" size="3"><p>
+	      <input type="radio" name="knowArrival" value=1> Yes
+	      <input type="radio" name="knowArrival" checked value=0> No<br>
+	   </td>
+	 </tr>
+     </table>
+     <table width="400" border="0" cellspacing="10" cellpadding="0">
+	<tr>
+	   <td width="33%" align="left" valign="center"><p><b><font face="arial, sans-serif, helvetica" size="3">Arrival Time:</font></b><br></td>
+	   <td width="33%" align="left" valign="center"><p><b><font face="arial, sans-serif, helvetica" size="3">Arrival Date:</font></b><br></td>
+	   <td width="33%" align="left" valign="center"><p><b><font face="arial, sans-serif, helvetica" size="3">Location:</font></b><br></td>
+	 </tr>
+	 <tr>
+	   <td width="33%" valign="center"><font face="arial, sans-serif, helvetica" size="3"><p><select name="time">
+			      <option value="8am">8am</option>
+			      <option value="9am">9am</option>
+			      <option selected value="10am">10am</option>
+			      <option value="11am">11am</option>
+			      <option value="12pm">12pm</option>
+			      <option value="1pm">1pm</option>
+			      <option value="2pm">2pm</option>
+			      <option value="3pm">3pm</option>
+			      <option value="4pm">4pm</option>
+			      <option value="5pm">5pm</option>
+			      <option value="6pm">6pm</option>
+			      <option value="7pm">7pm</option>
+			      <option value="8pm">8pm</option>
+			      <option value="9pm">9pm</option>			      
+			</select>
+			</font>
+	   </td>
+	   <td width="33%" valign="center">
+	   <table border="0" cellspacing="0" cellpadding="0">
+	      <td width="50%" valign="center" align="left"><font face="arial, sans-serif, helvetica" size="3">
+	      <p><select name="day">
+	         <option value="1">1</option>
+	         <option value="2">2</option>
+	         <option value="3">3</option>
+	         <option value="4">4</option>
+	         <option value="5">5</option>
+	         <option value="6">6</option>
+	         <option value="7">7</option>
+	         <option value="8">8</option>
+	         <option value="9">9</option>
+	         <option value="10">10</option>
+	         <option value="11">11</option>
+		 <option value="12">12</option>
+	         <option value="13">13</option>
+	         <option value="14">14</option>
+ 	         <option selected value="15">15</option>
+		 <option value="16">16</option>
+		 <option value="17">17</option>
+	         <option value="18">18</option>
+	         <option value="19">19</option>
+	         <option value="20">20</option>
+	         <option value="21">21</option>
+	         <option value="22">22</option>
+	         <option value="23">23</option>
+	         <option value="24">24</option>
+	         <option value="25">25</option>
+	         <option value="26">26</option>
+	         <option value="27">27</option>
+	         <option value="28">28</option>
+	         <option value="29">29</option>
+	         <option value="30">30</option>
+	         <option value="31">31</option>
+	      </select>
+	      </font>
+	      </td>
+	      <td width="50%" valign="center" align="left"><font face="arial, sans-serif, helvetica" size="3">
+	      <p><select name="month">
+			      <option value="Jan">January</option>
+			      <option value="Feb">February</option>
+			      <option value="Mar">March</option>
+			      <option value="Apr">April</option>
+			      <option value="May">May</option>
+			      <option value="Jun">June</option>
+			      <option value="Jul">July</option>
+			      <option value="Aug">August</option>
+			      <option selected value="Sep">September</option>
+			      <option value="Oct">October</option>
+			      <option value="Nov">November</option>
+			      <option value="Dec">December</option>
+		</select>
+	      </font>
+	      </td>
+	   </table>
+	   </td>
+	   <td width="50%" valign="center" align="left"><font face="arial, sans-serif, helvetica" size="3">
+	   <p><select name="location">
+			     <option selected value="Train">Cambridge Train Station</option>
+			     <option value="Coach">Cambridge Coach Station</option>
+            </select>
+	    </font>
+	    </td>
+	</tr>
+     </table>
+     <table width="400" border="0" cellspacing="10" cellpadding="0">
+	<tr>
+	  <td width="40%" valign="top"><p><b><font face="arial, sans-serif, helvetica" size="3">Message:</font></b><br></td>
+	  <td width="60%" align="left" valign="top"><font face="arial, sans-serif, helvetica" size="3"><p><textarea rows="4" cols="50" name="msgText"></textarea><br></font></td>
+	</tr>
+	<tr>
+	  <td colspan="2" valign="top"><font face="arial, sans-serif, helvetica" size="3"><p><input type="submit" value="Send" name="send"></font></td>
+	</tr>
+      </table>
+      </form>
+    </td>
+  </tr>
+</table>
+
+<table width = "100%" cellspacing="0" cellpadding="2" border="0">
+   <tr>
+      <td bgcolor="#FFFFFF">
+<hr>
+      </td>
+   </tr>
+   <tr>
+      <td height="20" bgcolor="#FFFFFF" valign="top" align="center">
+           <font face="arial, sans-serif, helvetica" size="2"><a href="index.html">Home</a> | <a href="events.html">Events</a> | <a href="life.html">Life in Cambridge</a> | <a href="faqs.html">Questions?</a> | <a href="links.html">Links</a> | <a href="applying.html">Applying</a> | <a href="contact.html">Contact Us</a>  | <a href="pictures.html">Pictures</a> | <a href="map.html">Map</a> </font>
+      </td>
+   </tr>
+   <tr>
+       <td height="20" bgcolor="#FFFFFF" valign="top" align="center">
+          <font face="arial, sans-serif, helvetica" size="2">&copy; 2005 <a href="../index.html">Christian
+          Graduate Society</a>.  Updated on 14 August 2006 by
+       the ISW Webmaster (m.mclean at-sign dpmms.cam.ac.uk).</font>
+       </td>
+   </tr>
+</table>
+
+</body>
+</HTML>
+
+
+
+
+
+
+
+
+
+
+

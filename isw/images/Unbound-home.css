@@ -1,0 +1,42 @@
+#header-wrap {
+	position: relative;
+	background: #fff url(wrap-bg.jpg) no-repeat;
+	margin: 0 auto;
+	width: 940px;
+	height: 295px;
+	text-align: left;	
+}
+#header-wrap h1#logo-text a {
+	position: absolute;
+	margin: 0; padding: 0;
+	font: normal 62px Georgia, 'Times New Roman', Times, serif;
+	letter-spacing: -1.5px;
+	color: #070000;
+	text-decoration: none;
+		
+	/* change the values of top and left to adjust the position of the logo*/
+	top: 135px; left: 48px;	
+}
+#header-wrap p#intro {
+	position: absolute;
+	margin: 0; padding: 0;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 1.6em;
+	font-style: italic;
+	text-transform: none;
+	color: #663333;
+	width: 400px;
+	
+	/* change the values of top and left to adjust the position */
+	top: 205px; left: 60px;		
+}
+#header-photo img {
+	border:solid 1px #cccccc;
+	margin: 0; padding: 0;
+	height:210px;
+} 
+#header-wrap h1#logo-text a:hover {
+	background: none;	border: none;
+}

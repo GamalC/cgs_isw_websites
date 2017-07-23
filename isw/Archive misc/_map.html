@@ -1,0 +1,442 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <title>ISW locations</title>
+    <script src="http://maps.google.com/maps?file=api&amp;v=2.x&amp;key=ABQIAAAAntlQeXZiq4SGrGbEyyFtXBT2WtlItJgY31tXXeqUUB5SjGyPZxSgk8aK4K48RPRD9eDI-zKAGvs7jw"
+            type="text/javascript"></script>
+    <script type="text/javascript">
+    //<![CDATA[
+
+    var map;
+
+
+    function load() {
+      map = new GMap2(document.getElementById("map"));
+      map.addControl(new GLargeMapControl());
+      map.addControl(new GMapTypeControl());
+      map.setCenter(new GLatLng(52.207607,0.131149), 14);
+      geocoder = new GClientGeocoder();
+    }
+
+    // This function puts a marker in position (longitude,latitude) with a label.
+    function setLocation(latitude,longitude,zoom,labelname) {
+//        geocoder.getLocations(address, addAddressToMap);
+
+          point = new GLatLng(latitude,longitude);
+          marker = new GMarker(point);
+          map.addOverlay(marker);
+          map.setZoom(zoom);
+          marker.openInfoWindowHtml(labelname);
+          map.panTo(point);
+    }
+
+    //]]>
+    </script>
+  </head>
+
+<a name="top">
+<body onload="load()" BGCOLOR="#FFFFFF" text="#000000" link="#000099" alink="#cc0000"
+vlink="#cc3
+333">
+<table width = "100%" cellspacing="0" cellpadding="0" border="0">
+   <tr>
+      <td height="2" bgcolor="#FFFFFF"></td>
+   </tr>
+   <tr>
+      <td bgcolor="#000000" valign="center" align="left" width=303>
+         <font color="#ffffff"><img src="logo.gif" width=303 height=110
+alt="International Student Welcome"></font>
+      </td>
+      <td align="center" valign="middle" bgcolor="#000000">&nbsp; 
+     </td>
+      <td valign="bottom" align="right" bgcolor="#000000" width=303
+height=110>
+         <font color="#ff5555" link="#ff5555" size="3"><b><i>Organised by the Christian Graduate Society</i></b></font>
+      </td>
+   </tr>
+</table>
+<table width = "100%" cellspacing="0" cellpadding="0" border="0">
+   <tr>
+      <td bgcolor="#0099cc" align="center" valign="middle">
+         <table width = "100%" cellspacing="2" cellpadding="2" border="2">
+	 <tr>
+	    <td width="11%" height="40" valign="middle" align="center">
+	      <a href="about.html">Home</a>
+	    </td>
+	    <td width="11%" height="40" valign="middle" align="center">
+	      <a href="events.html">Events</a>
+	    </td>
+	    <td width="11%" height="40" valign="middle" align="center">
+	      <a href="life.html">Life in Cambridge</a>
+	    </td>
+	    <td width="12%" height="40" valign="middle" align="center">
+	      <a href="faqs.html">Questions?</a>
+	    </td>
+	    <td width="11%" height="40" valign="middle" align="center">
+	      <a href="links.html">Links</a>
+	    </td>
+	    <td width="11%" height="40" valign="middle" align="center">
+	      <a href="applying.html">Applying</a>
+	    </td>
+	    <td width="11%" height="40" valign="middle" align="center">
+	     <a href="contact.html">Contact Us</a>
+	    </td>
+	    <td width="11%" height="40" valign="middle" align="center">
+	     <a href="pictures.html">Pictures</a>
+	    </td>
+	    <td width="11%" height="40" valign="middle" align="center">
+	     <a href="map.html">Map</a>
+	    </td>
+	 </tr>
+	 </table>
+      </td>   
+  </tr>
+   <tr>
+      <td height="4" bgcolor="#FFFFFF"></td>
+   </tr>
+</table>
+
+
+<!-- Addresses of various places //-->
+   <div id="map" style="width: 100%; height: 400px"></div>
+
+<table width="100%" cellspacing="0" cellpadding="10" border="0">
+  <td width = 50% valign=top>
+
+   Useful Shops in Cambridge City Centre.
+   <p>
+
+   1)
+   <a href="javascript:void(0)"
+     onclick="setLocation(52.206976,0.119798,17,
+     'Sainsburys food supermarket <br> (typical opening hours: 8am-10pm Mon-Sat, 11am-5pm Sun)');
+      return false;"> 
+      Sainsbury's-food supermarket</a>,
+
+   <br>
+
+   2)
+   <a href="javascript:void(0)"
+     onclick="setLocation(52.214089,0.123607,17,
+     'Staples-stationery and office equipment');
+      return false;"> 
+       Staples-stationery and office equipment</a>,
+
+   <br>
+
+   3)  Chemist/drugstores
+
+   <br>
+
+   - a)
+   <a href="javascript:void(0)"
+     onclick="setLocation(52.206081,0.121622,17,
+     'Boots');
+      return false;"> 
+       Boots the chemist</a>,
+
+   <br>
+
+    - b)
+    <a href="javascript:void(0)"
+     onclick="setLocation(52.206325,0.120388,17,
+     'Superdrug');
+      return false;"> 
+       Superdrug the chemist</a>,
+
+   <br>
+
+    4)
+    <a href="javascript:void(0)"
+     onclick="setLocation(52.205503,0.1182,17,
+     'Bookshops <br> I.e Cambridge university press');
+      return false;"> 
+       Cambridge university press</a>,
+
+   <br>
+
+    5)
+    <a href="javascript:void(0)"
+     onclick="setLocation(52.206542,0.130334,17,
+     'Argos');
+      return false;"> 
+       Argos</a>,
+
+   <br>
+
+    6) Banks
+ 
+   <br>
+
+   - a)
+    <a href="javascript:void(0)"
+     onclick="setLocation(52.204372,0.123103,17,
+     'National Westminster (NatWest)');
+      return false;"> 
+       National Westminster (NatWest)</a>,
+
+   <br>
+
+    - b)
+    <a href="javascript:void(0)"
+     onclick="setLocation(52.206265,0.120893,17,
+     'Lloyds-TSB');
+      return false;"> 
+       Lloyds-TSB</a>,
+
+   <br>
+
+    - c)
+    <a href="javascript:void(0)"
+     onclick="setLocation(52.205062,0.118693,17,
+     'HSBC');
+      return false;"> 
+       HSBC</a>,
+
+   <br>
+
+    - d)
+    <a href="javascript:void(0)"
+     onclick="setLocation(52.206081,0.121622,17,
+     'Barclays');
+      return false;"> 
+       Barclays</a>,
+
+   <br>
+
+    7)
+    <a href="javascript:void(0)"
+     onclick="setLocation(52.206298,0.117996,17,
+     'Post Office');
+      return false;"> 
+       Post Office</a>,
+
+   <br>
+
+    8)
+    <a href="javascript:void(0)"
+     onclick="setLocation(52.205818,0.120034,17,
+     'Open market <br> fresh fruit and vegetables <br> (cheap, open 9am-4pm)');
+      return false;"> 
+       Open Market</a>,
+
+   <br>
+
+    - 9) bicycle equipment
+
+   <br>
+
+    a)
+    <a href="javascript:void(0)"
+     onclick="setLocation(52.207883,0.119337,17,
+     'Halfords <br> bicy&ltcle equipment');
+      return false;"> 
+       Halfords</a>,
+
+   <br>
+
+    b)
+    <a href="javascript:void(0)"
+     onclick="setLocation(52.214082,0.12586,17,
+     'Cambridge University Cycles <br> bicycle equipment');
+      return false;"> 
+      Cambridge University Cycles</a>,
+
+   <br>
+
+    10)
+    <a href="javascript:void(0)"
+     onclick="setLocation(52.206798,0.134175,17,
+     'Grafton Centre <br> lots of shops! (charity shops on Burleigh Street nearby)');
+      return false;"> 
+       Grafton Centre - lots of shops!</a>,
+  </td>
+  <td width=50% valign=top>
+    Some places of worship
+    <p>Churches:<br>
+
+  <!--Note: you must add &quot; if you want to include hrefs in the speech bubbles-->
+
+   1)
+    <a href="javascript:void(0)"
+     onclick="setLocation(52.202123,0.124487,17,
+     '<a href=&quot;http://www.standrewsstreetbaptist.org&quot;> St Andrews Street Baptist Church </a> <br> (tel:506343)');
+      return false;"> 
+      St Andrew's Street Baptist Church</a>,
+
+   <br>
+
+   2)
+   <a href="javascript:void(0)"
+     onclick="setLocation(52.199453,0.137823,17,
+     '<a href=&quot;http://www.stbs.org.uk/&quot;>St Barnabas</a>: <br> (tel: 519526) <br> Church of England'); return false;"> 
+      St Barnabas</a>,
+
+   <br>
+
+   3)
+   <a href="javascript:void(0)"
+     onclick="setLocation(52.19043,0.16251,17,
+     '<a href=&quot;http://www.cthree.org&quot;>Cambridge Community Church</a> <br> meets in St Bedes School, <br> shuttle bus from Girton, <br> Queens, Anglia and Homerton. <br>(tel: 844415) Non-denominational'); return false;"> Cambridge Community Church </a>,
+
+   <br>
+
+   4) Cambridge Presbyterian Church : <br>
+   -  
+   <a href="javascript:void(0)"
+     onclick="setLocation(52.200486,0.158218,17,
+     '<a href=&quot;http://www.cambridgepres.org.uk&quot;>Cambridge Presbyterian Church</a>: <br> meets in St Stephens, Coldhams Lane and <br> Resurrection Lutheran Church (Huntingdon Road) <br> (tel: 473449)'); return false;"> 
+      Morning Worship</a>, <br>
+   -
+    <a href="javascript:void(0)"
+     onclick="setLocation(52.216482,0.106881,17,
+     '<a href=&quot;http://www.cambridgepres.org.uk&quot;>Cambridge Presbyterian Church</a>: <br> meets in St Stephens, Coldhams Lane and <br> Resurrection Lutheran Church (Huntingdon Road) <br> (tel: 473449)'); return false;"> 
+      Evening Worship</a>, 
+
+   <br>
+
+   5)
+   <a href="javascript:void(0)"
+     onclick="setLocation(52.206824,0.129583,17,
+     '<a href=&quot;http://www.eden-cambridge.org&quot;>Eden Baptist Church</a>: <br> Fitzroy Street. <br> (tel: 361250)'); return false;"> Eden Baptist Church </a>,
+
+   <br>
+
+   6)
+   <a href="javascript:void(0)"
+     onclick="setLocation(52.211959,0.145504,17,
+     '<a href=&quot;http://www.citychurchcambridge.org.uk&quot;>City Church</a>: <br> Cheddars Lane, off Newmarket Road. <br> (tel: 578304) <br> Non-denominational NFI'); return false;"> City Church </a>,
+
+   <br>
+
+   7)
+   <a href="javascript:void(0)"
+     onclick="setLocation(52.204799,0.119981,17,
+     '<a href=&quot;http://www.rc.net/eastanglia/fisherhouse/&quot;>Fisher House</a> <br> (Roman Catholic Chaplaincy): <br> near the Guildhall &amp; Lion Yard. <br> (tel: 350018)'); return false;"> Fisher House </a>,
+
+   <br>
+
+   8)
+   <a href="javascript:void(0)"
+     onclick="setLocation(52.205956,0.120431,17,
+     '<a href=&quot;http://www.htcambridge.org.uk&quot;>Holy Trinity</a>: <br> Market Street. <br> (tel: 355397) <br> Church of England'); return false;"> Holy Trinity </a>,
+
+   <br>
+
+   9)
+   <a href="javascript:void(0)"
+     onclick="setLocation(52.198783,0.127265,17,
+     '<a href=&quot;http://www.olem.freeuk.com&quot;>Catholic Church of Our Lady and English Martyrs</a>: <br> Lensfield Road. <br> (tel: 350787)'); return false;"> Catholic Church of Our Lady and English Martyrs </a>,
+
+   <br>
+
+   10)
+   <a href="javascript:void(0)"
+     onclick="setLocation(52.205457,0.138938,17,
+     '<a href=&quot;http://www.ely.anglican.org/parishes/camstmatts/&quot;> St Matthews</a>: <br> St Matthews Street. <br> (tel: 363545) <br> Church of England (CofE)'); return false;"> St Matthew's </a>,
+
+   <br>
+
+   11)
+   <a href="javascript:void(0)"
+     onclick="setLocation(52.20399,0.122802,17,
+     '<a href=&quot;http://www.stag.org&quot>St Andrew the Great (STAG)</a>: <br> near Christs College. <br> (tel: 518218) <br> Church of England'); return false;"> St Andrew the Great (STAG)</a>,
+
+   <br>
+
+   12)
+   <a href="javascript:void(0)"
+     onclick="setLocation(52.207107,0.126472,17,
+     '<a href=&quot;http://www.wesleycam.org.uk/&quot;>Wesley Methodist Church</a>: <br> Short Street. <br> (tel: 352115)'); return false;"> Wesley Methodist Church </a>,
+
+   <br>
+
+   13)
+   <a href="javascript:void(0)"
+     onclick="setLocation(52.198763,0.136117,17,
+     'Living Waters Church: <br> Tenison Road. <br> (tel: 570848) <br> Non-denominational'); return false;"> Living Waters Church </a>,
+
+   <br>
+
+   14)
+   <a href="javascript:void(0)"
+     onclick="setLocation(52.186392,0.14485,17,
+     '<a href=&quot;http://www.rockbaptist.org&quot;>Rock Baptist Church</a>: <br> meets in Morley Memorial School, <br> Blinco Grove. <br> (tel: 242197)'); return false;"> Rock Baptist Church </a>,
+
+   <br>
+
+   15)
+   <a href="javascript:void(0)"
+     onclick="setLocation(52.203478,0.132415,17,
+     '<a href=&quot;http://www.zionbc.org.uk&quot;>Zion Baptist Church</a>: <br> East Road. <br> (tel: 576386)'); return false;"> Zion Baptist Church </a>,
+
+   <br>
+
+   16)
+   <a href="javascript:void(0)"
+     onclick="setLocation(52.208797,0.118285,17,
+     '<a href=&quot;http://www.christiancambridge.uklinux.net/public/org.php?id=18&quot;> Greek Orthodox</a>. <br> Services in Greek at St. Clements &amp; <br> St Athanasios: Bridge St. <br> (tel: 356711)'); return false;"> Greek Orthodox </a>,
+
+   <br>
+
+   17)
+   <a href="javascript:void(0)"
+     onclick="setLocation(52.208317,0.122824,17,
+     '<a href=&quot;http://www.ephraim.org.uk/&quot;>Russian Orthodox parish of St Ephraim the Syrian</a>.  <br> Services in English at Westcott House, Jesus Lane. <br> (tel: 424790)'); return false;"> Russian Orthodox parish of St Ephraim the Syrian </a>,
+
+</p>
+
+<p>Other places of worship:<br>
+
+   <br>
+
+   18)
+   <a href="javascript:void(0)"
+     onclick="setLocation(52.198691,0.135055,17,
+     '<a href=&quot;http://www.cambridgemuslims.info&quot;>Cambridge Muslim Welfare Society Islamic Centre and Mosque</a>: <br> Mawson Rd. <br> (tel: 350134)'); return false;"> Cambridge Muslim Welfare Society Islamic Centre and Mosque </a>,
+
+   <br>
+
+   19)
+   <a href="javascript:void(0)"
+     onclick="setLocation(52.209816,0.117996,17,
+     '<a href=&quot;http://www.maven.co.il/synagogues/synagogues-search.asp?R=X&C=382&Y=1290&quot;> Cambridge Traditional Jewish Congregation</a> (The Synagogue): <br> Thompsons Lane. <br> (tel: 354783)'); return false;"> Cambridge Traditional Jewish Congregation </a>,
+
+   <br>
+
+   20)
+   <a href="javascript:void(0)"
+     onclick="setLocation(52.208218,0.134776,17,
+     '<a href=&quot;http://www.cambridgebuddhistcentre.com&quot;> Cambridge Buddhist Centre</a> <br> 38 Newmarket Road <br> (tel: 577553)'); return false;"> Cambridge Buddhist Centre </a>,
+
+</p>
+  </td>
+</table>
+
+  </p>
+
+
+
+<table width = "100%" cellspacing="0" cellpadding="2" border="0">
+  <tr>
+    <td bgcolor="#FFFFFF">
+      <hr />
+    </td>
+  </tr>
+  <tr>
+    <td height="20" bgcolor="#FFFFFF" valign="top" align="center"> <font face="arial, sans-serif, helvetica" size="2"><a href="index.html">Home</a> | <a href="events.html">Events</a> | <a href="life.html">Life
+          in Cambridge</a> | <a href="faqs.html">Questions?</a> | <a href="links.html">Links</a> | <a href="applying.html">Applying</a> | <a href="contact.html">Contact
+          Us</a> | <a href="pictures.html">Pictures</a> | <a href="map.html">Map</a> </font> </td>
+  </tr>
+  <tr>
+    <td height="20" bgcolor="#FFFFFF" valign="top" align="center"> <font face="arial, sans-serif, helvetica" size="2">&copy; 2005 <a href="../index.html">Christian
+          Graduate Society</a>. Updated on 14 August 2006 by
+       the ISW Webmaster (m.mclean at-sign dpmms.cam.ac.uk).</font> </td>
+  </tr>
+</table>
+
+
+  </body>
+</html>

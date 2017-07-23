@@ -1,0 +1,61 @@
+body { background-color: white;           
+       color: #000000;
+       font-family: arial, helvetica, sans-serif;
+       font-size: 10pt }
+
+A.main:link { color: #0000DC }       /* unvisited link */
+A.side:link { color: #DC0000 }
+
+A:visited { color: #909090 }   /* visited links */
+A:active { color: #FF800F }    /* active links */
+
+table.header { background-color: #DCDCDC }
+table.main { background-color: #FFFFFF }
+table.side { background-color: #DCDCDC }
+table.footer { background-color: #FFFFFF }
+
+td.header { font-family: arial, helvetica, sans-serif;
+            font-size: 10pt;
+            font-weight: bold;
+            color: #000000 }
+
+td.mhead { background-color: #0000DC;
+                  font-family: arial, helvetica, sans-serif;
+                  font-weight: bold;
+                  font-size: 16pt;
+                  color: #FFFFFF }
+
+td.mbody { background-color: #FFFFFF;
+                  font-family: arial, helvetica, sans-serif;
+                  font-size: 12pt;
+                  color: #000000 }
+
+td.shead { background-color: #DC0000; 
+                 font-weight: bold;
+                 font-size: 13pt;
+                 color: #FFFFFF }
+
+td.sbody { background-color: #DCDCDC;
+                 font-family: arial, helvetica, sans-serif;
+                 color: #000000;
+                 font-size: 11pt }
+
+td.footer { background-color: #FFFFFF;
+            font-family: arial, helvetica, sans-serif;
+            font-size: 11pt;
+            color: #000000 }
+
+tt { font-family: courier }
+
+ul { font-family: arial, helvetica, sans-serif }
+ol { font-family: arial, helvetica, sans-serif }
+dl { font-family: arial, helvetica, sans-serif }
+li { font-family: arial, helvetica, sans-serif }
+dd { font-family: arial, helvetica, sans-serif }
+dt { font-family: arial, helvetica, sans-serif }
+p  { font-family: arial, helvetica, sans-serif }
+td { font-family: arial, helvetica, sans-serif }
+
+h1 { 	font-family: arial, helvetica, sans-serif;
+    	font-size: 16pt;
+	font-weight: bold }	

@@ -1,0 +1,223 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<html>
+<head>
+<title>ISW Schedule Login</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<LINK rel="stylesheet" type="text/css" href="main.css">
+<script language="JavaScript">
+// -----------------------------------------------------------------------------
+// Generic Form Validation
+//
+// Copyright (C) 2000 Jacob Hage - [jacobhage@hotmail.com]
+// Distributed under the terms of the GNU Library General Public License
+// -----------------------------------------------------------------------------
+
+// -----------------------------------------------------------------------------
+// Initializing script  - setting global variables
+// -----------------------------------------------------------------------------
+var checkObjects		= new Array(); 	// Array containing the objects to validate.
+var errors				= ""; 			// Variable holding the error message.
+var returnVal			= false; 		// General return value. The validated form will only be submitted if true.
+var language			= new Array(); 	// Language independent error messages!
+var selectecLanguage	= "english";	// Choose between "english", "danish", "dutch", "french", "spanish", "russian", "portuguese"
+language.english		= new Array();
+
+// Error messages in english:
+	language.english.header		= "You haven't entered your"
+	language.english.start		= "*";
+	language.english.field		= " ";
+	language.english.require	= "!";
+	language.english.min		= " and must consist of at least ";
+	language.english.max		= " and must not contain more than ";
+	language.english.minmax		= " and no more than ";
+	language.english.chars		= " characters";
+	language.english.num		= " and must contain a number";
+	language.english.email		= " must contain a valid e-mail address";
+	
+function define(n,type,HTMLname,min,max,d){
+	var p;
+	var i;
+	var x;
+	if(!d) d=document;
+	if((p=n.indexOf("?"))>0&&parent.frames.length){
+    	d=parent.frames[n.substring(p+1)].document;
+    	n=n.substring(0,p);
+    }
+	if(!(x=d[n])&&d.all) x=d.all[n];
+	
+  	for (i=0;!x&&i<d.forms.length;i++){
+  		x=d.forms[i][n];
+  	}
+	for(i=0;!x&&d.layers&&i<d.layers.length;i++){
+		x=define(n,type,HTMLname,min,max,d.layers[i].document);
+		return x;		
+	}
+	
+	// Create Object. The name will be "V_something" where something is the "n" parameter above.
+	eval("V_"+n+" = new formResult(x,type,HTMLname,min,max);");
+	checkObjects[eval(checkObjects.length)] = eval("V_"+n);
+}
+
+// -----------------------------------------------------------------------------
+// formResult - Used internally to create the objects
+// -----------------------------------------------------------------------------
+function formResult(form,type,HTMLname,min,max){
+	this.form = form;
+	this.type = type;
+	this.HTMLname = HTMLname;
+	this.min  = min;
+	this.max  = max;
+}
+
+// -----------------------------------------------------------------------------
+// validate - Call this function onSubmit and return the "returnVal". (onSubmit="validate();return returnVal;")
+// -----------------------------------------------------------------------------
+function validate(){
+	if(checkObjects.length>0){
+		errorObject = "";
+	
+		for(i=0;i<checkObjects.length;i++){
+			validateObject 			= new Object();
+			validateObject.form 	= checkObjects[i].form;
+			validateObject.HTMLname = checkObjects[i].HTMLname;
+			validateObject.val 		= checkObjects[i].form.value;
+			validateObject.len 		= checkObjects[i].form.value.length;
+			validateObject.min 		= checkObjects[i].min;
+			validateObject.max 		= checkObjects[i].max;
+			validateObject.type 	= checkObjects[i].type;
+			
+			//Debug alert line
+			//alert("validateObject: "+validateObject+"\nvalidateObject.val: "+validateObject.val+"\nvalidateObject.len: "+validateObject.len+"\nvalidateObject.min,validateObject.max: "+validateObject.min+","+validateObject.max+"\nvalidateObject.type: "+validateObject.type);
+			
+			// Checking input. If "min" and/or "max" is defined the input has to be within the specific range
+			if(validateObject.type == "num" || validateObject.type == "string"){
+				if((validateObject.type == "num" && validateObject.len <= 0) || (validateObject.type == "num" && isNaN(validateObject.val))){errors+=language[selectecLanguage].start+language[selectecLanguage].field+validateObject.HTMLname+language[selectecLanguage].require+language[selectecLanguage].num+"\n";
+				} else if (validateObject.min && validateObject.max && (validateObject.len < validateObject.min || validateObject.len > validateObject.max)){errors+=language[selectecLanguage].start+language[selectecLanguage].field+validateObject.HTMLname+language[selectecLanguage].require+language[selectecLanguage].min+validateObject.min+language[selectecLanguage].minmax+validateObject.max+language[selectecLanguage].chars+"\n";
+				} else if (validateObject.min && !validateObject.max && (validateObject.len < validateObject.min)){errors+=language[selectecLanguage].start+language[selectecLanguage].field+validateObject.HTMLname+language[selectecLanguage].require+language[selectecLanguage].min+validateObject.min+language[selectecLanguage].chars+"\n";
+				} else if (validateObject.max && !validateObject.min &&(validateObject.len > validateObject.max)){errors+=language[selectecLanguage].start+language[selectecLanguage].field+validateObject.HTMLname+language[selectecLanguage].require+language[selectecLanguage].max+validateObject.max+language[selectecLanguage].chars+"\n";
+				} else if (!validateObject.min && !validateObject.max && validateObject.len <= 0){errors+=language[selectecLanguage].start+language[selectecLanguage].field+validateObject.HTMLname+language[selectecLanguage].require+"\n";
+				}
+			} else if(validateObject.type == "email"){
+				// Checking existense of "@" and ".". The length of the input must be at least 5 characters. The "." must neither be preceding the "@" nor follow it.
+				if((validateObject.val.indexOf("@") == -1) || (validateObject.val.charAt(0) == ".") || (validateObject.val.charAt(0) == "@") ||(validateObject.len < 6) || (validateObject.val.indexOf(".") == -1) || (validateObject.val.charAt(validateObject.val.indexOf("@")+1) == ".") || (validateObject.val.charAt(validateObject.val.indexOf("@")-1) == ".")){errors+=language[selectecLanguage].start+language[selectecLanguage].field+validateObject.HTMLname+language[selectecLanguage].email+"\n";}
+			}
+		}
+	}
+	// Used to set the state of the returnVal. If errors -> show error messages in chosen language
+	if(errors){
+		alert(language[selectecLanguage].header.concat("\n"+errors));
+		errors = "";
+		returnVal = false;
+	} else {
+		returnVal = true;
+	}
+}
+
+
+</script>
+<script language="JavaScript">
+	function init() {
+		define('uid','string','Username');
+		define('pid','string','Password');
+	}
+</script>
+</head>
+
+<body BGCOLOR="#FFFFFF" text="#000000" link="#003399" alink="#cc0000" vlink="#cc3333" onLoad="init();"></a>
+<table width = "600" cellspacing="0" cellpadding="0" border="0">
+   <tr>
+      <td height="2" bgcolor="#FFFFFF"></td>
+   </tr>
+   <tr>
+      <td bgcolor="#FFFFFF" valign="center" align="center">
+         <img src="images/title.gif">
+      </td>
+   </tr>
+   <tr>
+      <td bgcolor="#FFFFFF" align="center" valign="center">
+         <table width = "600" cellspacing="2" cellpadding="2" border="2">
+	 <tr>
+	    <td width="20%" height="40" bgcolor="E8D4B1" valign="center" align="center">
+	      <font face="Times">[<a href="http://www.cam.ac.uk/societies/cgs/isw/index.html">Home</a>]</font>
+	    </td>
+	    <td width="20%" height="40" bgcolor="E8D4B1" valign="center" align="center">
+	      <font face="Times">[<a href="http://www.cam.ac.uk/societies/cgs/isw/faqs.html">FAQs</a>]</font>
+	    </td>
+	    <td width="20%" height="40" bgcolor="E8D4B1" valign="center" align="center">
+	      <font face="Times">[<a href="http://www.cam.ac.uk/societies/cgs/isw/events.html">Events</a>]</font>
+	    </td>
+	    <td width="20%" height="40" bgcolor="E8D4B1" valign="center" align="center">
+	      <font face="Times">[<a href="http://www.cam.ac.uk/societies/cgs/isw/links.html">Links</a>]</font>
+	    </td>
+	    <td width="20%" height="40" bgcolor="E8D4B1" valign="center" align="center">
+	     <font face="Times">[<a href="http://www.cam.ac.uk/societies/cgs/isw/contact.html">Contact Us</a>]</font>
+	    </td>
+	 </tr>
+	 </table>
+      </td>   
+  </tr>
+   <tr>
+      <td height="4" bgcolor="#FFFFFF"></td>
+   </tr>
+</table>
+<table width="550" cellspacing="0" cellpadding="10" border="0">
+  <tr>
+     <td bgcolor="E8D4B1" height="45">
+      <font face="Times"><b><u>ISW Schedule Login</u></b></font>
+     </td>
+  </tr>
+  <tr>
+     <td>
+      <form name="login" method="post" action="http://www.srcf.ucam.org/cucgs/isw/schedule/restricted/process-login.php" onSubmit="validate();return returnVal;">
+      <table>
+        <tr>
+	   <td align="left" valign="center"><b><font color="#FF0000">Username: </font></td>
+	   <td align="left" valign="center"><input type="text" name="uid" size="20"></td>
+	</tr>
+	<tr>
+	  <td align="left" valign="center"><b><font color="#FF0000">Password:</font></td>
+	  <td align="left" valign="center"><input type="password" name="pid" size="20"></b>
+	</tr>
+	<tr>
+	   <td colspan="2" align="left" valign="top"><input type="submit" name="submit" value = "Login"></td>
+        </tr>
+      </table>
+      </form>
+    </td>
+    </font>
+  </tr>
+</table>
+
+<table width = "600" cellspacing="0" cellpadding="2" border="0">
+   <tr>
+      <td bgcolor="#FFFFFF">
+        <img src="images/blueline.gif">
+      </td>
+   </tr>
+   <tr>
+      <td height="20" bgcolor="#FFFFFF" valign="top" align="center">
+           <font face="arial, sans-serif, helvetica" size="2"><a href="http://www.cam.ac.uk/societies/cgs/isw/index.html">Home</a> | <a href="http://www.cam.ac.uk/societies/cgs/isw/faqs.html">FAQs</a> | <a href="http://www.cam.ac.uk/societies/cgs/isw/events.html">Events</a> | <a href="http://www.cam.ac.uk/societies/cgs/isw/links.html">Links</a> | <a href="http://www.cam.ac.uk/societies/cgs/isw/contact.html">Contact Us</a> </font>
+      </td>
+   </tr>
+   <tr>
+       <td height="20" bgcolor="#FFFFFF" valign="top" align="center">
+          <font face="arial, sans-serif, helvetica" size="2">&copy 2002 CGS.  Updated on 18 July 2002 by the <a href="mailto:Sven.Ostring@cl.cam.ac.uk">CGS Webmaster</a></font>.
+       </td>
+   </tr>
+</table>
+
+</body>
+</HTML>
+
+
+
+
+
+
+
+
+
+
+

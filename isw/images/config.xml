@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flapi>
+	<parameters>
+		<setid></setid>
+		<userid>isw.cambridge</userid>
+		<api_key>4600e0020849a24d9b333cbc429e747d</api_key>
+		<showsets>overview</showsets> <!-- 3 options : overview, recent, specific -->
+		<recentnumber>20</recentnumber>
+		<rotatetime>5</rotatetime>
+		<showslideshowlink>true</showslideshowlink>
+		<randomplay>false</randomplay>
+		<shownavigation>true</shownavigation>
+		<thumbscrollspeed>30</thumbscrollspeed>
+		<transition>fluids</transition>
+		<thumbstyle>always</thumbstyle>
+		<buttonTextColor>0x83b81c</buttonTextColor>
+		<buttonTextColorDisabled>0x3f482e</buttonTextColorDisabled>
+		<buttonTextColorHover>0x898989</buttonTextColorHover>
+		<textTextColor>0xEEEEEE</textTextColor>
+		<bgColor>0x181712</bgColor>
+		<thumbBgColor>0x13120F</thumbBgColor>
+		<brdrColor>0x13120F</brdrColor>
+		<bordersize>10</bordersize>
+		<infosettakentime>true</infosettakentime>
+		<setstitle>All my amazing photo sets. Check it!</setstitle>
+	</parameters>
+</flapi>

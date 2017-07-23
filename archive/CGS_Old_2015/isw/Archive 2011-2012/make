@@ -1,0 +1,9 @@
+m4 -P < areas.m4 > areas.html
+m4 -P < events.m4 > events.html
+m4 -P < involved.m4 > involved.html
+m4 -P < links.m4 > links.html
+m4 -P < about.m4 > about.html
+m4 -P < contact.m4 > contact.html
+m4 -P < applying.m4 > applying.html
+m4 -P < faqs.m4 > faqs.html
+m4 -P < life.m4 > life.html
